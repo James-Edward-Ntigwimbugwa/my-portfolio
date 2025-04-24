@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between mb-8">
           <div className="mb-6 md:mb-0">
             <a href="#home" className="text-xl font-bold mb-4 inline-block">
-              <span className="text-primary">John</span>Developer
+              <span className="text-primary">James</span>Developer
             </a>
             <p className="text-gray-400 max-w-md">
               Building digital experiences that matter.
@@ -47,7 +47,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} John Smith. All rights reserved.
+            © {currentYear} James Edward. All rights reserved.
           </p>
           
           <div className="flex space-x-4 mt-4 md:mt-0">

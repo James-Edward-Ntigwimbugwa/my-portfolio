@@ -7,7 +7,6 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-// Import your main CSS file
 import './index.css';
 import { useDarkMode } from './context/useDarkMode';
 

@@ -17,7 +17,7 @@ const About = () => {
               <div className="absolute -left-6 -top-6 w-24 h-24 bg-primary/20 rounded-full -z-10"></div>
               <img 
                 src="/about-image.jpg" 
-                alt="John Smith working" 
+                alt="James Smith working" 
                 className="rounded-lg shadow-lg w-full max-w-md mx-auto"
               />
               <div className="absolute -bottom-6 -right-6 p-4 bg-primary text-white rounded-lg shadow-lg text-center">

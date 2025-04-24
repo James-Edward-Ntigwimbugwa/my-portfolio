@@ -21,7 +21,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
         >
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Hi, I'm <span className="text-purple-300">John Smith</span>
+            Hi, I'm <span className="text-purple-300">James Edward</span>
           </h1>
           <h2 className="text-xl md:text-2xl mb-6">Full Stack Developer & Problem Solver</h2>
           <p className="text-lg opacity-90 mb-8 max-w-lg">
@@ -80,7 +80,7 @@ const Hero = () => {
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/30">
             <img 
               src="/profile-photo.jpg" 
-              alt="John Smith" 
+              alt="James Edward" 
               className="w-full h-full object-cover"
             />
           </div>

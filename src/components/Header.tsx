@@ -7,7 +7,7 @@ import { useStickyHeader } from '@/hooks/UseStickyHeader';
 import { useScrollSpy } from '@/hooks/UseScrollSpy';
 
 const Header = () => {
-  const { isDarkMode, toggleDarkMode } = useDarkMode();
+  const { isDarkMode , toggleDarkMode } = useDarkMode();
   const { isSticky } = useStickyHeader(50);
   const activeSection = useScrollSpy(navItems.map(item => item.href));
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,7 +42,7 @@ const Header = () => {
       <div className="container-custom flex justify-between items-center">
         {/* Logo */}
         <a href="#home" className="text-lg font-bold flex items-center">
-          <span className="text-primary">John</span>
+          <span className="text-primary">James</span>
           <span className="dark:text-white">Developer</span>
         </a>
 
