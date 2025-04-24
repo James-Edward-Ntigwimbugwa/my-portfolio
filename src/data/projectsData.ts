@@ -2,9 +2,9 @@ import { Project } from '../types';
 
 export const projectsData: Project[] = [
   {
-    id: 'ecommerce',
-    title: 'E-Commerce Platform',
-    description: 'A full-featured online store with payment processing, inventory management, and admin dashboard.',
+    id: 'eCard',
+    title: 'E-Card Platform',
+    description: 'A full-featured Mobile App electronic card platform for creating and sharing digital cards.Project built with Spring Boot and Flutter.',
     image: '/projects/ecommerce.jpg',
     categories: ['Full Stack'],
     technologies: [
@@ -13,8 +13,8 @@ export const projectsData: Project[] = [
       { name: 'MongoDB' },
       { name: 'Stripe' },
     ],
-    demoUrl: '#',
-    codeUrl: '#',
+    demoUrl: 'https://alltanzaniaecard.onrender.com/swagger-ui/index.html/',
+    codeUrl: 'https://github.com/James-Edward-Ntigwimbugwa/eCard-Mobile-App/tree/master/ecard_app',
   },
   {
     id: 'taskmanager',

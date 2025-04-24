@@ -78,10 +78,10 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
         >
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/30">
-            <img 
-              src='../../assets/profile.jpeg' 
-              alt="James Edward" 
-              className="w-full h-full object-cover"
+          <img 
+            src="https://raw.githubusercontent.com/James-Edward-Ntigwimbugwa/my-portfolio/main/src/assets/profile.jpeg" 
+            alt="James Edward" 
+            className="w-full h-full object-cover"
             />
           </div>
         </motion.div>
