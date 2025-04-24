@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #7C3AED;
+  --primary-light: #8B5CF6;
+  --primary-dark: #6D28D9;
+  --secondary: #3B82F6;
+  --secondary-light: #60A5FA;
+  --secondary-dark: #2563EB;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-white dark:bg-gray-900;
+}
+
+.section-padding {
+  @apply py-16 md:py-24;
+}
+
+.container-custom {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+}
+
+.gradient-bg {
+  background: linear-gradient(120deg, #7C3AED 0%, #3B82F6 100%);
+}
+
+.btn-primary {
+  @apply bg-primary hover:bg-primary-dark text-white font-medium py-2 px-6 rounded transition duration-300 inline-flex items-center justify-center;
+}
+
+.btn-outline {
+  @apply border border-primary text-primary hover:bg-primary hover:text-white font-medium py-2 px-6 rounded transition duration-300 inline-flex items-center justify-center;
+}
+
+.card {
+  @apply bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg transition duration-300;
+}
+
+.skill-bar {
+  @apply h-2 rounded-full bg-gray-200 dark:bg-gray-700 overflow-hidden;
+}
+
+.skill-progress {
+  @apply h-full bg-primary rounded-full;
+}
+
+.scroll-top {
+  @apply fixed bottom-6 right-6 bg-primary text-white p-3 rounded-full shadow-md hover:bg-primary-dark transition duration-300 z-50;
+}
